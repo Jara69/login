@@ -1,0 +1,72 @@
+login {
+  background-color: black;
+  width: 280px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+
+}
+
+.login-box h1 {
+  float: left;
+  font-size: 40px;
+  margin: 50px;
+  padding: 13px 0;
+  text-align: center;
+
+
+}
+
+.text {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  background-color: azure;
+}
+.text input{
+  border: none;
+  outline: none;
+  background:none;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+}
+.button{
+  width: 100%;
+  background-color: #1a5aff;
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
+  border : none;
+  padding: 18px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.print {
+  color: red;
+}
+.print2 {
+  color: green;
+  font-size: 150px;
+  text-align: center;
+  background-color: azure;
+}
+
+.box{
+  padding: 600px;
+
+}
+
+img {
+  padding: 50px;
+  padding-left: 90px;
+}

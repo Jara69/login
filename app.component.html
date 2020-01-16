@@ -1,0 +1,37 @@
+<div class="box" *ngIf="logged === false">
+  <div class="box-form">
+
+
+    <div class="login">
+
+      <img src="https://www.kindpng.com/picc/m/105-1055656_account-user-profile-avatar-avatar-user-profile-icon.png" alt="Smiley face" height="120" width="120">
+
+
+      <form>
+        <div class="text">
+
+          <input type="username" name="name" [(ngModel)]="name" placeholder="Username">
+        </div>
+      </form>
+
+      <div class="text">
+
+        <input type="password" name="password" [(ngModel)]="password" placeholder="Password">
+      </div>
+
+
+
+      <input (click)="clickLogin()" class="button" type="button" value="Sign in" *ngIf="logged === false">
+
+      <div class="print">
+        {{printIncorrect}}
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="print2" >
+  {{printCorrect}}
+</div>
